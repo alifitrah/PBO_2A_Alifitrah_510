@@ -24,35 +24,32 @@ public class Main {
                 if (username.equals(user) && password.equals(pass)) {
 
                     System.out.println("Admin Login Successful!");
-                }
-
-                else {
+                } else {
                     System.out.println("Login failed! Wrong username or password.");
                 }
                 break;
-                case 2:
-                    String name;
-                    String nim;
+            case 2:
+                String name;
+                String nim;
 
-                    name = "Muh. Alifitrah Ismail";
-                    nim = "202410370110510";
-                    System.out.printf("Enter Name: ");
-                    String Name = sc.next();
-                    System.out.printf("Enter Student ID: ");
-                    String ID = sc.next();
+                name = "Muh. Alifitrah Ismail";
+                nim = "202410370110510";
+                System.out.printf("Enter Name: ");
+                String Name = sc.next();
+                System.out.printf("Enter Student ID: ");
+                String ID = sc.next();
 
-                    if (Name.equals(name) && ID.equals(nim)) {
+                if (Name.equals(name) && ID.equals(nim)) {
 
-                        System.out.println("Student Login Successful!");
-                        System.out.println("Name: " + name);
-                        System.out.println("Student ID: " + ID);
+                    System.out.println("Student Login Successful!");
+                    System.out.println("Name: " + name);
+                    System.out.println("Student ID: " + ID);
 
-                    }
-
-                    else {
-                        System.out.println("Login Failed! Wrong name or student ID.");
-                    }
-
+                } else {
+                    System.out.println("Login Failed! Wrong name or student ID.");
+                }
+        } if (choice < 1 || choice > 2) {
+            System.out.println("Invalid choice.");
         }
     }
 }
