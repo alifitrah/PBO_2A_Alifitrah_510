@@ -7,7 +7,7 @@ public class Main {
         System.out.println("1. Admin");
         System.out.println("2. Student");
         System.out.printf("Enter your choice: ");
-        Scanner sc = new Scanner(System.in).useDelimiter("\\n");
+        Scanner sc = new Scanner(System.in).useDelimiter("\n");
         int choice = sc.nextInt();
         switch (choice) {
             case 1:
