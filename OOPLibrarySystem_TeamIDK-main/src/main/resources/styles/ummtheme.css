@@ -1,0 +1,67 @@
+/* Root theme */
+.root {
+    -fx-background-color: #ffffff;
+    -fx-padding: 30;
+    -fx-alignment: center;
+    -fx-background-radius: 12;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Titles */
+.label.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b71c1c;
+}
+
+/* Logo image style */
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0.3, 0, 0);
+}
+
+/* Input fields */
+.text-field, .password-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #b71c1c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+/* Red button (login/register) */
+.button.login {
+    -fx-background-color: #b71c1c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+/* Hyperlink */
+.hyperlink.register {
+    -fx-text-fill: #b71c1c;
+    -fx-underline: true;
+    -fx-font-size: 13px;
+}
+
+/* Book card */
+.book-card {
+    -fx-background-color: #f2eef7;
+    -fx-background-radius: 12;
+    -fx-padding: 12;
+    -fx-spacing: 5;
+    -fx-min-width: 140;
+    -fx-min-height: 100;
+}
+
+/* Buttons on white background */
+.button.flat-dark {
+    -fx-background-color: #212121;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-radius: 8;
+    -fx-padding: 10 16;
+}
